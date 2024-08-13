@@ -16,26 +16,22 @@
 </a>
 
 **Get started**
-`1. Main`
+
  First install the main bot library
 ```
 pip install simplybot
 ```
-# initialize bot token
+# Example
 ```python
+# initialize bot token
 from simplybot import startBot
 
 bot = startBot('token here')
-```
 # example send plain text message
-```
 def start(message, chat_id):
     bot.send_text(chat_id, "Hello %username! I'm your friendly telegram bot.", message=message)
 
 bot.handle_command('start', start)
-```
-- quoted message
-```
 def quotedMessage(message, chat_id):
     bot.send_text(chat_id, "This is quoted message", quoted=message.message_id)
 ```
