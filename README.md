@@ -5,15 +5,10 @@
   <img src="https://telegra.ph/file/c177a1300e679d0630b9d.jpg" alt="thumb" width="600" height="300">
 </p>
 
-<a href="https://t.me/rizkykianadji" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; color: #fff; background-color: #0088cc; text-align: center; text-decoration: none; border-radius: 5px;">
-  My telegram account
-</a>
-<a href="https://t.me/operationemp" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; color: #fff; background-color: #0088cc; text-align: center; text-decoration: none; border-radius: 5px;">
-  My telegram groups
-</a>
-<a href="https://ailibytes.xyz" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; color: #fff; background-color: #0088cc; text-align: center; text-decoration: none; border-radius: 5px;">
-  My official sites
-</a>
+[My Telegram Account](https://t.me/rizkykianadji)
+[Telegram Groups](https://t.me/operationemp)
+[Official Sites](https://ailibytes.xyz)
+
 
 **Get started**
 
