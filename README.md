@@ -138,3 +138,6 @@ bot.send_contact(chat_id, '+1234567890', 'John')
 bot.send_location(chat_id, 37.7749, -122.4194)
 ```
 
+# Credit
+- eternnoir (telebot)[https://github.com/eternnoir/pyTelegramBotAPI]
+- & me :)
