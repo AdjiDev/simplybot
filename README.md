@@ -143,5 +143,8 @@ bot.send_location(chat_id, 37.7749, -122.4194)
 - & me :)
 
 I have been works lonely for 7 hours making this libary and i forgot to touch some grass outside
+so give me:
+- fork this reposity
+- click the star
 
 `adjidev 2024`
