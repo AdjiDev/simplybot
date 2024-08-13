@@ -1,6 +1,6 @@
 from lib.handler import startBot
 
-bot = startBot('7046738742:AAEiT9cDbeD-7o4GG72a4g0E69A4oY9KR7I')
+bot = startBot('token-here')
 
 def handle_start(message, chat_id):
     bot.send_text(chat_id, "Hello! I'm a Telegram bot.")
