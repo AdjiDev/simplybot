@@ -17,7 +17,7 @@
 
 **Get started**
 
- First install the main bot library
+- First install the main bot library
 ```
 pip install simplybot
 ```
@@ -31,12 +31,18 @@ bot = startBot('token here')
 def start(message, chat_id):
     bot.send_text(chat_id, "Hello %username! I'm your friendly telegram bot.", message=message)
 
+# quoted message
 bot.handle_command('start', start)
 def quotedMessage(message, chat_id):
     bot.send_text(chat_id, "This is quoted message", quoted=message.message_id)
+
+bot.handle_command('start', start)
+bot.handle_command('quoted', quotedMessage)
+
+bot.start_polling() # start the bot
 ```
-`2. Sending media`
-```
+# sending media
+```python
 def send_media_messages(message, chat_id):
     # Send an image from a URL
     image_url = "https://example.com/path/to/image.jpg"
@@ -57,4 +63,39 @@ def send_media_messages(message, chat_id):
     # Send a document from a local file path
     local_doc_path = "path/to/local/document.pdf"
     bot.send_docs(chat_id, local_doc_path, mimetype="application/pdf")
+```
+# markup/callback message
+```python
+def start(message, chat_id):
+
+    # Define the buttons
+    payloads = {
+        'button': [
+            {
+                'rows': [
+                    {
+                        'type': 'inline',
+                        'displayText': 'Option 1',
+                        'callback': 'option_1'
+                    },
+                    {
+                        'type': 'inline',
+                        'displayText': 'Option 2',
+                        'callback': 'option_2'
+                    },
+                ]
+            }
+        ]
+    }
+
+    # Send the message with buttons
+    bot.send_message_with_buttons(chat_id, "Click button below", payloads)
+
+def handle_option_1(call, chat_id):
+    # Respond to Option 1 button press
+    bot.send_text(chat_id, "You selected Option 1!")
+
+def handle_option_2(call, chat_id):
+    # Respond to Option 2 button press
+    bot.send_text(chat_id, "You selected Option 2!")
 ```
