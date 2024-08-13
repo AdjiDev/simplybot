@@ -19,7 +19,6 @@
   </a>
 </div>
 
-
 **Get started**
 
 - First install the main bot library
