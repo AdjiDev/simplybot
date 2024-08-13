@@ -103,3 +103,30 @@ def handle_option_2(call, chat_id):
     # Respond to Option 2 button press
     bot.send_text(chat_id, "You selected Option 2!")
 ```
+# other
+```python
+# send quiz & polling message
+def quiz(message, chat_id):
+    polling_message = {
+        'description': 'What is the capital of France?',
+        'rows': [
+            {
+                'name': 'Paris',
+                'isCorrectAnswers': True
+            },
+            {
+                'name': 'London',
+                'isCorrectAnswers': False
+            },
+            {
+                'name': 'Berlin',
+                'isCorrectAnswers': False
+            }
+        ],
+        'isAnonymous': False,
+        'isQuizVote': True,
+        'allowMultipleVote': False,
+        'explanation': 'The capital of France is Paris.'
+    }
+    bot.send_poll(chat_id, polling_message)
+```
