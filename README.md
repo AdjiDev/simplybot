@@ -1,10 +1,5 @@
 # simplybot
 **A python library to create telegram bots simply and easily**
-
-<p align="center">
-  <img src="https://telegra.ph/file/c177a1300e679d0630b9d.jpg" alt="thumb" width="600" height="300">
-</p>
-
 <div style="align: center;">
   <a href="https://t.me/rizkykianadji" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; color: #fff; background-color: #0088cc; text-align: center; text-decoration: none; border-radius: 5px;">
     <img src="https://img.shields.io/badge/Telegram-Join%20Chat-blue" alt="My Telegram Account" style="vertical-align: middle; border: none;">
@@ -18,6 +13,10 @@
     <img src="https://img.shields.io/badge/Website-Visit%20Now-blue" alt="My Official Sites" style="vertical-align: middle; border: none;">
   </a>
 </div>
+
+<p align="center">
+  <img src="https://telegra.ph/file/c177a1300e679d0630b9d.jpg" alt="thumb" width="600" height="300">
+</p>
 
 **Get started**
 
@@ -129,4 +128,10 @@ def quiz(message, chat_id):
         'explanation': 'The capital of France is Paris.'
     }
     bot.send_poll(chat_id, polling_message)
+
+# send contact
+bot.send_contact(chat_id, '+1234567890', 'John')
+# send location
+bot.send_location(chat_id, 37.7749, -122.4194)
 ```
+
