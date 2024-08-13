@@ -141,3 +141,7 @@ bot.send_location(chat_id, 37.7749, -122.4194)
 # Credit
 - eternnoir [telebot](https://github.com/eternnoir/pyTelegramBotAPI)
 - & me :)
+
+I have been works lonely for 7 hours making this libary and i forgot to touch some grass outside
+
+`adjidev 2024`
