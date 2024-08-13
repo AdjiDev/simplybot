@@ -5,9 +5,11 @@
   <img src="https://telegra.ph/file/c177a1300e679d0630b9d.jpg" alt="thumb" width="600" height="300">
 </p>
 
-[My Telegram Account](https://t.me/rizkykianadji)
-[Telegram Groups](https://t.me/operationemp)
-[Official Sites](https://ailibytes.xyz)
+[![My Telegram Account](https://via.placeholder.com/150x50.png?text=My+Telegram+Account)](https://t.me/rizkykianadji)
+
+[![My Telegram Groups](https://via.placeholder.com/150x50.png?text=My+Telegram+Groups)](https://t.me/operationemp)
+
+[![My Official Sites](https://via.placeholder.com/150x50.png?text=My+Official+Sites)](https://ailibytes.xyz)
 
 
 **Get started**
